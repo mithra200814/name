@@ -1,21 +1,26 @@
-import java.util.Date;
-import java.util.concurrent.Callable;
 
 public class day7 {
-    /*
     static class Notification{
         private String to;
         Notification(String to){
-            this.to = to;        }
-        void send(){        }    }
+            this.to = to;
+        }
+        void send(){
+
+        }
+    }
     static class AudioNotification extends Notification {
         AudioNotification(String to){
-            super(to);        }
+            super(to);
+        }
         void sendAudioNotification(){
             System.out.println("Sending audio notification...");
-        }    }    static class TextNotification extends Notification {
+        }
+    }
+    static class TextNotification extends Notification {
         TextNotification(String to){
-            super(to);        }
+            super(to);
+        }
         void sendTextNotification(){
             System.out.println("Sending text notification...");
         }    }
@@ -26,7 +31,7 @@ public class day7 {
         textNotification.sendTextNotification();
     }
 }
-/*
+
 
     static class Request {
         String name;
@@ -81,10 +86,9 @@ public class day7 {
             onDutyRequest onDutyRequest = new onDutyRequest("mithra", "14-04-2008", "Culturals");
             onDutyRequest.rejectOnDutyRequest();
         }
-    }
 
-    */
-    /*
+
+
     static class Payment {
         String amount;
 
@@ -133,5 +137,5 @@ public class day7 {
                 NBPayment nbPayment = new NBPayment("10000");
                 nbPayment.TransferNBPayment();
                 }
-                }
-     */
+
+}
