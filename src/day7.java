@@ -84,6 +84,7 @@ public class day7 {
     }
 
     */
+    /*
     static class Payment {
         String amount;
 
@@ -131,8 +132,6 @@ public class day7 {
                 CardPayment.TransfercardPayment();
                 NBPayment nbPayment = new NBPayment("10000");
                 nbPayment.TransferNBPayment();
-            }
-
-        }
-
-
+                }
+                }
+     */
