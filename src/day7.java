@@ -1,5 +1,6 @@
 
 public class day7 {
+    /*
     static class Notification{
         private String to;
         Notification(String to){
@@ -86,7 +87,7 @@ public class day7 {
             onDutyRequest onDutyRequest = new onDutyRequest("mithra", "14-04-2008", "Culturals");
             onDutyRequest.rejectOnDutyRequest();
         }
-
+}
 
 
     static class Payment {
@@ -139,3 +140,4 @@ public class day7 {
                 }
 
 }
+*/
