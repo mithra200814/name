@@ -1,5 +1,5 @@
 
-public class day7 {
+public class day7 {}
     /*
     static class Notification{
         private String to;
