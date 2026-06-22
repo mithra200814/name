@@ -1,5 +1,5 @@
-
 public class day14 {
+/*
         static class Student {
             String name;
             String email;
@@ -18,7 +18,6 @@ public class day14 {
                 private String email;
                 private String phone;
                 private int age;
-
                 public Builder name(String nameValue) {
                     this.name = nameValue;
                     return this;
@@ -42,8 +41,10 @@ public class day14 {
                 public Student build() {
                     return new Student(this);
                 }
+
             }
         }
+
         static void main(){
                 Student student=new Student.Builder()
                         .name("Mithra G")
@@ -57,4 +58,7 @@ public class day14 {
                 System.out.println(student.age);
 
     }
+}
+
+ */
 }
