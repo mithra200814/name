@@ -1,4 +1,4 @@
-public class day_Strategy {
+public class day14_Strategy {
     static void main() {
 
         FeeCalculator calc = new FeeCalculator(new NoDiscount());
@@ -45,8 +45,8 @@ class FeeCalculator{
         this.discountStrategy = discountStrategy;
     }
     double finalFee(double fee){
-        discountStrategy.apply(fee);
-        return fee;
+         return discountStrategy.apply(fee);
+
     }
 
 
